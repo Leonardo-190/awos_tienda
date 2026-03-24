@@ -89,6 +89,7 @@ const Productos = () => {
                 <span className="text-xs text-slate-400">Stock: {prod.stock}</span>
               </div>
             </div>
+          
           </div>
         ))}
       </div>

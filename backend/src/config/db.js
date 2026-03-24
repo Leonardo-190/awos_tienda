@@ -10,3 +10,5 @@ const pool = new Pool({
 });
 
 module.exports = pool;
+console.log("Password usada:", process.env.DB_PASSWORD);
+console.log("Port usada:", process.env.DB_PORT);
